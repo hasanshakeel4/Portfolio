@@ -17,12 +17,12 @@ function Projects() {
         "Property transfers & history logs",
       ],
       images: [
-        "/projects/property1.jpg",
-        "/projects/property2.jpg",
-        "/projects/property3.jpg",
-        "/projects/property4.jpg",
-        "/projects/property5.jpg",
-        "/projects/property6.jpg",
+        "/Projects/property1.jpg",
+        "/Projects/property2.jpg",
+        "/Projects/property3.jpg",
+        "/Projects/property4.jpg",
+        "/Projects/property5.jpg",
+        "/Projects/property6.jpg",
 
       ],
     },
