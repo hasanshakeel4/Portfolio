@@ -37,7 +37,13 @@ function Projects() {
         "Result management",
         "Fee management",
       ],
-      images: ["/projects/school-management-1.jpg"],
+      images: [
+        "/projects/school1.jpg",
+        "/projects/school2.jpg",
+        "/projects/school3.jpg",
+        "/projects/school4.jpg",
+        "/projects/school5.jpg",    
+      ],
     },
     {
       name: "Restaurant Management System",
