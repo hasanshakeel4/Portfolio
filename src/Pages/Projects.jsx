@@ -142,7 +142,7 @@ function Projects() {
   </div>
 
   <div className="about-photo">
-    <img src="projects/project.jpeg" alt="Projects showcase" />
+    <img src="Projects/project.jpeg" alt="Projects showcase" />
   </div>
 </section>
 
