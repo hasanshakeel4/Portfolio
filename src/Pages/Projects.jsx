@@ -38,11 +38,11 @@ function Projects() {
         "Fee management",
       ],
       images: [
-        "/projects/school1.jpg",
-        "/projects/school2.jpg",
-        "/projects/school3.jpg",
-        "/projects/school4.jpg",
-        "/projects/school5.jpg",    
+        "/Projects/school1.jpg",
+        "/Projects/school2.jpg",
+        "/Projects/school3.jpg",
+        "/Projects/school4.jpg",
+        "/Projects/school5.jpg",    
       ],
     },
     {
