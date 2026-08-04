@@ -49,14 +49,20 @@ function Projects() {
       name: "Restaurant Management System",
       role: "University Project",
       year: "2025",
-      stack: "C++, OOP, DSA, SQL Developer",
+      stack: "C++, OOP, DSA, CSV Files",
       features: [
         "Customer & menu management",
         "Order processing & billing",
         "Admin management",
         "SQL Server database integration",
       ],
-      images: ["/projects/restaurant-management-1.jpg"],
+      images: [
+        "/Projects/restaurant1.jpg",
+        "/Projects/restaurant2.jpg",
+        "/Projects/restaurant3.jpg",
+        "/Projects/restaurant4.jpg",
+      
+      ],
     },
     {
       name: "Linux System Monitoring & Automation Tool",
@@ -69,7 +75,7 @@ function Projects() {
         "System status tracking",
         "Report generation",
       ],
-      images: ["/projects/linux-tool-1.jpg"],
+      images: ["/Projects/linux.jpeg"],
     },
     {
       name: "Spotify Clone",
@@ -82,7 +88,11 @@ function Projects() {
         "Interactive frontend components",
         "Responsive design",
       ],
-      images: ["/projects/spotify-clone-1.jpg"],
+      images: [
+        "/Projects/spotify1.jpg",
+        "/Projects/spotify2.jpg",
+      
+      ],
     },
     {
       name: "Personal Portfolio Website",
@@ -95,7 +105,14 @@ function Projects() {
         "Reusable React components",
         "Smooth UI animations",
       ],
-      images: ["/projects/portfolio-1.jpg"],
+      images: [
+        "/Projects/portfolio1.jpg",
+        "/Projects/portfolio2.jpg",
+        "/Projects/portfolio3.jpg",
+        "/Projects/portfolio4.jpg",
+      
+      
+      ],
     },
     {
       name: "Event-Driven Traffic Alert System",
