@@ -54,7 +54,7 @@ function Projects() {
         "Customer & menu management",
         "Order processing & billing",
         "Admin management",
-        "SQL Server database integration",
+        "CSV Files data storage",
       ],
       images: [
         "/Projects/restaurant1.jpg",
@@ -65,7 +65,7 @@ function Projects() {
       ],
     },
     {
-      name: "Linux System Monitoring & Automation Tool",
+      name: "Linux System Monitoring Tool",
       role: "University Project",
       year: "2025",
       stack: "Linux, Bash Scripting",
@@ -125,7 +125,7 @@ function Projects() {
         "Observer Pattern implementation",
         "Real-time alert generation",
       ],
-      images: ["/projects/traffic-alert-1.jpg"],
+      images: ["/Projects/traffic.jpg"],
     },
   ];
 
@@ -159,8 +159,9 @@ function Projects() {
     <p className="eyebrow">Projects</p>
     <h1>Things I've built</h1>
     <p className="hero-subtext">
-      7 projects across web development, desktop applications, and
-      database systems — built during coursework and internships.
+      A collection of projects built through internships, university coursework,
+       and personal development, covering web applications, desktop systems, 
+       and database-driven solutions.
     </p>
   </div>
 
