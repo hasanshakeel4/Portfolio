@@ -772,7 +772,6 @@ body {
   font-weight: 600;
 }
 
-/* Responsive */
 @media (max-width: 800px) {
   .hero-split,
   .about-split {
@@ -783,7 +782,22 @@ body {
     padding: 16px 20px;
   }
 
+  .navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
   .nav-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop-only {
     display: none;
   }
 
@@ -811,7 +825,7 @@ body {
     color: var(--accent);
   }
 
-  .mobile-menu .theme-toggle {
+  .mobile-theme-toggle {
     align-self: flex-start;
     width: auto;
     border-radius: 8px;

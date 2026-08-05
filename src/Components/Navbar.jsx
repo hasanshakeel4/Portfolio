@@ -11,26 +11,22 @@ function Navbar({ theme, toggleTheme }) {
       <div className="navbar-top">
         <div className="nav-logo">Hasan Shakeel</div>
 
-        <button
-          className="menu-toggle"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          {menuOpen ? "✕" : "☰"}
-        </button>
+        <div className="nav-links">
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/skills">Skills</Link>
+          <Link to="/experience">Experience</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/resume">Resume</Link>
+          <Link to="/contact">Contact</Link>
+        </div>
 
         <div className="nav-right">
-          <div className="nav-links">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/skills">Skills</Link>
-            <Link to="/experience">Experience</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/contact">Contact</Link>
-          </div>
-
-          <button className="theme-toggle" onClick={toggleTheme}>
+          <button className="theme-toggle desktop-only" onClick={toggleTheme}>
             {theme === "dark" ? "☀️" : "🌙"}
+          </button>
+          <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
+            {menuOpen ? "✕" : "☰"}
           </button>
         </div>
       </div>
@@ -44,7 +40,7 @@ function Navbar({ theme, toggleTheme }) {
           <Link to="/projects" onClick={closeMenu}>Projects</Link>
           <Link to="/resume" onClick={closeMenu}>Resume</Link>
           <Link to="/contact" onClick={closeMenu}>Contact</Link>
-          <button className="theme-toggle" onClick={toggleTheme}>
+          <button className="theme-toggle mobile-theme-toggle" onClick={toggleTheme}>
             {theme === "dark" ? "☀️ Light Mode" : "🌙 Dark Mode"}
           </button>
         </div>
