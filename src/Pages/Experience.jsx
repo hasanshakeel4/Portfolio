@@ -7,7 +7,7 @@ function Experience() {
     {
       title: "Software Developer Intern",
       company: "Bahria Town Corporate Office",
-      duration: "2026",
+      duration: "June 2026 - August 2026",
       tech: "React, ASP.NET Core, C#, SSMS, Entity Framework",
       responsibilities: [
         "Developed frontend applications using React",
@@ -22,7 +22,7 @@ function Experience() {
     {
       title: "Backend Developer Intern",
       company: "BiSol Labs",
-      duration: "2026",
+      duration: "July 2026 - September 2026",
       tech: "React, JavaScript, Git, GitHub",
       responsibilities: [
         "Developing and maintaining company web applications",
